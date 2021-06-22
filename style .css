@@ -1,0 +1,61 @@
+img {
+    border-radius: 50%;
+    width: 300px;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(#f491ff 0%, #91fff2 100%);
+    background-repeat: no-repeat;
+}
+#section1{
+ text-align: center;
+    background: linear-gradient(#f491ff 0%, #91fff2 100%);
+    background-repeat: no-repeat;   
+}
+#sew{
+    border-radius: 50px;
+   width:160px;
+    
+}
+
+.menu {
+    font-family:Dancing Script;
+    color: deeppink;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.link {
+    float: left;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 4px;
+    padding-right: 8px;
+    font-size: 15px;
+}
+.link:hover{
+    background-color: bisque;
+    font-size:20px;
+}
+.line {
+    height: 5px;
+    width: 450px;
+    background-color: black;
+    margin: 2px auto;
+}
+.section2{
+ text-align: center;
+    background: linear-gradient(#f491ff 0%, #91fff2 100%);
+    background-repeat: no-repeat; 
+    height:500px;
+    font-size:25px;
+    font-family:pacifico;
+}
+html{
+    scroll-behavior: smooth;
+}
